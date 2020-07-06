@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/User/Material Flatland Modified.tmTheme",
+	"enable_table_editor": true,
+	"extensions":
+	[
+		"markdown",
+		"md"
+	],
+	"line_numbers": true,
+	"mde.list_indent_auto_switch_bullet": false,
+	"tab_size": 4,
+	"trim_trailing_white_space_on_save": true,
+	"wrap_width": 120
+}

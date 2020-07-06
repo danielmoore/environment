@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketGuard",
+		"Cucumber",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"HexViewer",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"INI",
+		"JsPrettier",
+		"MarkdownEditing",
+		"Marked App Menu",
+		"Material Theme",
+		"Materialize",
+		"Materialize-Appbar",
+		"nginx",
+		"Open URL",
+		"Package Control",
+		"Parquet",
+		"PowerShell",
+		"Pretty JSON",
+		"SublimeERB",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-tslint",
+		"Table Editor",
+		"TernJS",
+		"Terraform",
+		"Theme - Gravity",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"TodoReview",
+		"TypeScript Syntax"
+	]
+}

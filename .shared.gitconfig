@@ -1,0 +1,43 @@
+[user]
+  name = Daniel Moore
+
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  amend = commit --amend --no-edit
+  fixup = commit --fixup=HEAD
+  ffmg = merge --ff-only
+  vlog = log --graph --oneline --all --decorate
+  push-new = ! git push -u origin "$(git branch --show-current)"
+  rebase-retry = "!rebaseDir=$(git rev-parse --git-dir)/rebase-apply; git reset --hard && git apply $rebaseDir/$(printf '%04d' $(cat $rebaseDir/next)) --3way"
+  branch-date = "!f(){ git show -s --format=%ci $(git merge-base HEAD $1); }; f"
+  fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | sed -e "s#^#`git rev-parse --show-toplevel`/#" | sort -u' -
+  unstage-checkout = ! sh -c 'git reset HEAD $1 && git checkout $1' -
+  branch-alias = ! sh -c 'git symbolic-ref refs/heads/$1 $(git symbolic-ref HEAD)' -
+  rework = ! sh -c 'git rebase -i $(git merge-base $1 $(git symbolic-ref HEAD))' -
+  tail = log -n 5 --format='%C(auto)%h %>(20)%aN %><(16)%cr %s' --reverse
+  diverge = ! $PROFILE_DIR/dotfiles/git/lib/diverge.sh
+  clean-branches = ! $PROFILE_DIR/dotfiles/git/lib/clean-branches.sh
+  commit-empty = commit --allow-empty-message -m ''
+
+[push]
+  default = upstream
+
+[color]
+  ui = true
+
+[core]
+  eol = lf
+
+[branch]
+  autosetuprebase = always
+
+[pull]
+  rebase = true
+
+[fetch]
+  prune = true
+
+[rebase]
+  autosquash = true
