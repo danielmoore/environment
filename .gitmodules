@@ -15,3 +15,6 @@
 [submodule ".zsh-custom/themes/powerlevel10k"]
 	path = .zsh-custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule ".vim/plugged/material.vim"]
+	path = .vim/plugged/material.vim
+	url = https://github.com/kaicataldo/material.vim.git
