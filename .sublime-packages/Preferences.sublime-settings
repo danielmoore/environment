@@ -10,9 +10,7 @@
 		"offline",
 		"proactively",
 		"mentorship",
-		"online",
-		"strategize",
-		"remediate"
+		"online"
 	],
 	"binary_file_patterns":
 	[
@@ -43,27 +41,14 @@
 		".sass-cache"
 	],
 	"font_face": "Fira Code",
-	"font_size": 12,
-	"line_padding_bottom": 2,
-	"gravity_title_bar": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Markdown",
-		"Vintage"
-	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"material_theme_accent_teal": true,
-	"material_theme_compact_panel": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
-	"material_theme_tree_headings": true,
 	"rulers":
 	[
 		80,
