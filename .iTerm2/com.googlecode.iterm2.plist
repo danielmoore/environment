@@ -2867,7 +2867,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>303 214 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>611 468 570 375 0 0 1440 877 </string>
+	<string>464 107 976 770 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 84 570 425 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -3214,7 +3214,7 @@
 			<key>Draw Powerline Glyphs</key>
 			<true/>
 			<key>Flashing Bell</key>
-			<false/>
+			<true/>
 			<key>Foreground Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -3556,7 +3556,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGMDZNerdFontCompleteM-Regular 11</string>
+			<string>FiraCodeNerdFontComplete-Regular 11</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -3617,7 +3617,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Smart Cursor Color</key>
 			<true/>
 			<key>Smart Selection Rules</key>
@@ -3711,6 +3711,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 			</array>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tab Color</key>
@@ -3731,7 +3733,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>4</integer>
+			<integer>2</integer>
 			<key>Transparency</key>
 			<real>0.030016656091370556</real>
 			<key>Triggers</key>
@@ -3755,9 +3757,9 @@
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
-			<true/>
+			<false/>
 			<key>Window Type</key>
-			<integer>13</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/vbq655</string>
 		</dict>
@@ -4549,10 +4551,7 @@
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>MesloLGMDZ Nerd Font Mono</string>
-		<string>MesloLGM Nerd Font Mono</string>
-		<string>MesloLGLDZ Nerd Font Mono</string>
-		<string>MesloLGL Nerd Font Mono</string>
+		<string>FiraCode Nerd Font</string>
 	</array>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
@@ -4561,14 +4560,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{272, 747}</string>
+		<string>{0, 827}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>1DACE9FB-B311-4664-B3A8-A627EFDDBF03</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>43</integer>
+	<integer>44</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -5367,7 +5366,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-06T02:59:22Z</date>
+	<date>2020-07-07T03:02:50Z</date>
 	<key>SUUpdateGroupIdentifier</key>
 	<integer>3869384893</integer>
 	<key>SUUpdateRelaunchingMarker</key>
