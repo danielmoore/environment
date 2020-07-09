@@ -9,7 +9,7 @@ This is based on the [Bitbucket guide][] for managing dotfiles with a bare git r
 Clone the repo using HTTPS
 
 ```
-$ git clone --bare https://github.com/danielmoore/environment.git --recurse-submodules $HOME/.cfg
+$ git clone --bare https://github.com/danielmoore/environment.git $HOME/.cfg
 ```
 
 ...or SSH
@@ -23,7 +23,14 @@ Backup files that would be overwritten.
 ```
 $ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 $ mkdir $HOME/.config-backup
-$ config ls-files | xargs -I% mv % $HOME/.config-backup/
+$ config ls-tree -r --name-only master | xargs -I% mv % $HOME/.config-backup/%
+```
+
+Set up the submodules.
+
+```
+$ config submodule init
+$ config submodule update --check --depth 1
 ```
 
 Load the config.
