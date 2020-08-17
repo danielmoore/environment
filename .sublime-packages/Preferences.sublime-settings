@@ -41,15 +41,24 @@
 		".sass-cache"
 	],
 	"font_face": "Fira Code",
-	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Materialize",
+		"Parquet",
+		"SublimeLinter-tslint",
+		"Theme - Spacegray",
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
+	"material_theme_compact_panel": true,
 	"material_theme_small_tab": true,
+	"material_theme_titlebar": true,
 	"rulers":
 	[
 		80,
