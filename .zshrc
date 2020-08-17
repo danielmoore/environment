@@ -84,9 +84,6 @@ plugins=(colored-man-pages colorize git)
 if (( $+commands[kubectl] )); then
     plugins+=(kubectl minikube kops helm)
 fi
-if (( $+commands[aws] )); then
-    plugins+=(aws)
-fi
 if (( $+commands[docker-compose] )); then
     plugins+=(docker-compose)
 fi
@@ -131,7 +128,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-setopt no_share_history
+# setopt no_share_history
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
