@@ -6,7 +6,7 @@
   ci = commit
   co = checkout
   amend = commit --amend --no-edit
-  fixup = commit --fixup=HEAD
+  fixup = commit --fixup='HEAD^{/!-^fixup!}'
   ffmg = merge --ff-only
   sup = submodule update --remote
   vlog = log --graph --oneline --all --decorate
