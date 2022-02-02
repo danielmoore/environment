@@ -41,15 +41,17 @@
 		".sass-cache"
 	],
 	"font_face": "Fira Code",
+	/*"font_size": 22,*/
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Materialize",
 		"Parquet",
 		"SublimeLinter-tslint",
 		"Theme - Spacegray",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -73,5 +75,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"typescript_auto_format": false,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	/*"font_size": 17,*/
+	"font_size": 16,
 }

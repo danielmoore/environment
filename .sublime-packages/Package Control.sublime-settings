@@ -17,6 +17,7 @@
 		"HexViewer",
 		"HTMLBeautify",
 		"INI",
+		"JQ Syntax",
 		"MarkdownEditing",
 		"Marked App Menu",
 		"Material Theme",
@@ -32,5 +33,5 @@
 		"SublimeLinter-eslint",
 		"Table Editor"
 	],
-	"proxy": "http://127.0.0.1:4444"
+	"proxy": "http://127.0.0.1:4444",
 }

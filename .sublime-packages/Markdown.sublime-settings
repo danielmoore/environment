@@ -10,5 +10,5 @@
 	"mde.list_indent_auto_switch_bullet": false,
 	"tab_size": 4,
 	"trim_trailing_white_space_on_save": true,
-	"wrap_width": 120
+	"wrap_width": 80,
 }
