@@ -2,23 +2,29 @@
 	path = .oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
 	branch = master
+	shallow = true
 [submodule ".zsh-custom/plugins/fzf"]
 	path = .zsh-custom/plugins/fzf
 	url = https://github.com/junegunn/fzf.git
 	branch = master
+	shallow = true
 [submodule ".zsh-custom/plugins/zsh-autosuggestions"]
 	path = .zsh-custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
-  branch = master
+    branch = master
+	shallow = true
 [submodule ".zsh-custom/plugins/zsh-syntax-highlighting"]
 	path = .zsh-custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-  branch = master
+    branch = master
+	shallow = true
 [submodule ".zsh-custom/themes/powerlevel10k"]
 	path = .zsh-custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
-  branch = master
+    branch = master
+	shallow = true
 [submodule ".vim/plugged/material.vim"]
 	path = .vim/plugged/material.vim
 	url = https://github.com/kaicataldo/material.vim.git
-  branch = main
+    branch = main
+	shallow = true
