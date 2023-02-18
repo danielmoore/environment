@@ -39,10 +39,17 @@ $ config checkout
 $ config config --local status.showUntrackedFiles no
 ```
 
-### Mac
-
-Set up Sublime packages.
+Include shared gitconfig
 
 ```
-$ ln -s $HOME/.sublime-packages $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+$ git config --global include.path "$HOME/.shared.gitconfig"
+```
+
+### Mac
+
+Install Homebrew and common tools.
+
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew bundle
 ```
