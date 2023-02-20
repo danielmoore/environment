@@ -29,7 +29,7 @@ $ config ls-tree -r --name-only master | xargs -I% mv % $HOME/.config-backup/%
 Set up the submodules.
 
 ```
-$ config submodule update --init
+$ config submodule update --init --recursive
 ```
 
 Load the config.
