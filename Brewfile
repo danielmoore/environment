@@ -1,18 +1,23 @@
+# https://docs.brew.sh/Brew-Bundle-and-Brewfile
+
 brew "bat"
 brew "fzf" # Needed for zsh prompt
 
-cask "arc"
+cask "brave-browser"
 cask "iterm2"
 cask "launchbar"
 cask "1password"
 
-# Fonts
-cask "font-fira-code"
-cask "font-fira-code-nerd-font"
+if ENV["MODE"] == "dev"
+  # Fonts
+  cask "font-fira-code"
+  cask "font-fira-code-nerd-font"
 
-# Editors
-cask "zed"
-cask "visual-studio-code"
+  # Editors
+  cask "zed"
+  cask "visual-studio-code"
+  cask "cursor"
+end
 
 # Creature comforts
 cask "mimestream"
