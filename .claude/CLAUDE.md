@@ -59,3 +59,9 @@
 
 - When working in a git repo on a change that spans multiple commits, work through one commit at a time.
 - Only move on to the next commit after I confirm I'm satisfied with the current one.
+
+### PR drafts
+
+- Draft PR text in `PR_DRAFT.md` at the repo root, ignored via `.git/info/exclude` (not `.gitignore`). If it doesn't exist when starting work on a branch, create it, seeding it from the repo's PR template if there is one.
+- Whenever we make changes, update `PR_DRAFT.md` to record what changed and why, notable decisions, and anything reviewers should know.
+- Use it as the body when opening the PR (`gh pr create --body-file PR_DRAFT.md`).
